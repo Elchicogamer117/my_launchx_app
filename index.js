@@ -1,4 +1,4 @@
-const MissionCommander = require('./app/missionCommander') //<- Llamamos al modulo
+const missionExplorer = require('./app/missionExplorer') //<- Llamamos al modulo con require
 
-const cristian = new MissionCommander("Cristian")
-console.log(cristian.name)
+const cristian = new missionExplorer("Cristian")
+console.log(`Mission explorer name: ${cristian.name}`)
